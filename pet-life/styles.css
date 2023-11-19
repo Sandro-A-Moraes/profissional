@@ -137,6 +137,7 @@ h1, h2{
 footer{
     background-color: rgba(255, 152, 108, 0.25);
     display: flex;
+    justify-content: space-between;
     gap: 80px;
     padding: 64px 80px;
 }
@@ -152,10 +153,11 @@ footer nav a{
     display: block;
     margin-bottom: 16px;
     text-decoration: none;
-    max-width: 350px;
+    
 }
 
 footer p{
+    max-width: 350px;
     margin-bottom: 16px;
 }
 
