@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+html{
+    scroll-behavior: smooth;
+}
+
+/* :target{
+    scroll-margin-top: .8em;
+} */
+
 *{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -63,6 +71,10 @@ h1, h2{
     text-decoration: none;
 
     transition: background-color 0.4s ease-in-out ;
+}
+
+.botao:active{
+    color: #FF725E;
 }
 
 .botao:hover{
@@ -150,7 +162,12 @@ h1, h2{
     border-radius:0 0 8px 8px ;
     margin-top: -8px;
     padding: 24px;
+    /* display: none; */
 }
+
+/* .duvida:hover .paragrafo{
+    display: block;
+} */
 
 footer{
     background-color: rgba(255, 152, 108, 0.25);
@@ -171,7 +188,7 @@ footer nav a{
     display: block;
     margin-bottom: 16px;
     text-decoration: none;
-    
+    transition: color 0.3s ease;
 }
 
 footer p{
@@ -184,6 +201,10 @@ footer p a{
     text-decoration: none;
 }
 
+footer nav a:hover{
+    color: #6a8596;
+}
+
 #copyright{
     background-color: #263138;
     text-align: center;
@@ -193,4 +214,10 @@ footer p a{
 
 #copyright a{
     color: #FF9A6C;
+    transition: color 0.3s ease;
+}
+
+#copyright a:hover{
+    color: #77848d;
+
 }
