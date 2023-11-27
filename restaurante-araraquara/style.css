@@ -198,6 +198,7 @@ main p{
     width: auto;
     margin: -30px -20px -10px -30px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 #quemsomos h2{
@@ -215,12 +216,13 @@ main p{
 img{
     border-radius: 10px;
     height: 600px;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
+    filter: brightness(60%);
 }
 
 img:hover{
-    opacity: 90%;
-    filter: brightness(75%);
+    opacity: 95%;
+    filter: brightness(100%);
 }
 
 .conteudo p{
