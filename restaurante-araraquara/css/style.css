@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -55,6 +56,8 @@ header nav a{
 
 header nav a:hover{
     color: #D97904;
+    border-bottom: 1px solid var(--cor1);
+    -webkit-box-reflect: below 1px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 0.514));
     /* background-color: #260F01; */
     
     
@@ -62,7 +65,11 @@ header nav a:hover{
 
 header h1{
     color: #f7e0cd;
-    transition: color 0.8s ease-in-out;
+    transition: color 0.6s ease-in-out;
+}
+
+header h1:hover{
+    color: var(--cor1);
 }
 
 .content{
@@ -85,9 +92,7 @@ header h1{
     
 }
 
-header h1:hover{
-    color: var(--cor1);
-}
+
 
 @media (max-width:1290px ){
     .content{
@@ -208,9 +213,20 @@ main p{
 }
 
 .imagens-container{
+    position: relative;
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 30px;
+}
+
+@media (max-width: 850px) {
+    .imagens-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
 }
 
 img{
@@ -221,9 +237,43 @@ img{
 }
 
 img:hover{
-    opacity: 95%;
+    opacity: 100%;
     filter: brightness(100%);
+
 }
+
+.animation-border-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 1px 1px;
+    border-radius: 10px;
+}
+
+.animation-border-container::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200%;
+    background: linear-gradient(180deg, var(--cor1), var(--cor2));
+    transform: rotate(0deg);
+    border-radius: 10px;
+    transition: transform 1s ease-in-out;
+    
+}
+
+.animation-border-container:hover::before{
+    transform: rotate(360deg);
+    /* animation: teste 3s linear infinite; */
+}
+
+/* @keyframes teste {
+    100%{
+        transform: rotate(360deg);
+    }
+} */
 
 .conteudo p{
     font-size: 1.15em;
