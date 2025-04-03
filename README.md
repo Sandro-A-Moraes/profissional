@@ -5,7 +5,7 @@ Olá! 👋 Bem-vindo ao meu perfil no GitHub. Sou estudante de **Engenharia de S
 ## 👨‍💻 Sobre Mim
 
 - **Nome:** Sandro Almeida de Moraes  
-- **Idade:** 19 anos  
+- **Idade:** 20 anos  
 - **Formação:** Estudante de Engenharia de Software  
 - **Interesses:** Desenvolvimento de Sites, Programação, Desenvolvimento de Software, Tecnologia, Inovação, Desafios de Algoritmos  
 - **Experiência com Programação:** C, Java, JavaScript, linguagens de marcação (markdown e HTML), CSS e estou em constante aprendizado sobre novas tecnologias.
@@ -26,7 +26,6 @@ Olá! 👋 Bem-vindo ao meu perfil no GitHub. Sou estudante de **Engenharia de S
 
 - **Metodologias e Práticas de Desenvolvimento:**  
   - **Programação Orientada a Objetos (POO):** Design de sistemas modulares e escaláveis.  
-  - **TDD:** Testes automatizados e boas práticas de desenvolvimento de software.
   - **SCRUM:** Utilização de metodologias ágeis e aprimoramento de processos de desenvolvimento.
 
 ## 💼 Projetos Relevantes
