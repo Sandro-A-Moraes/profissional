@@ -6,6 +6,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
     scroll-padding-top: 0px;
 }
@@ -149,6 +150,29 @@ header h1:hover{
 
 }
 
+@media (max-width: 768px) {
+    .imagens-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .imagem-1 p, .imagem-2 p {
+        width: 90%;
+        padding: 10px;
+    }
+
+    img {
+        height: auto;
+        width: 90%;
+    }
+
+    main p {
+        width: 90%;
+    }
+}
+
+
 .bg{
     background-image: url("https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     height: 500px;
@@ -229,9 +253,11 @@ main p{
     }
 }
 
-img{
+.imagens-container img{
     border-radius: 10px;
-    height: 600px;
+    max-height: 600px;
+    width: 100%;
+    height: auto;
     transition: 0.3s ease-in-out;
     filter: brightness(60%);
 }
@@ -314,4 +340,3 @@ img:hover{
 .imagem-2 p{
     padding-left: 0px;
 }
-

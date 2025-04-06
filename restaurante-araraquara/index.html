@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon-restaurante.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    
     <title>Restaurante Araraquara</title>
 </head>
 <body>
@@ -68,15 +70,104 @@
         <section id="cardapio">
             <h2>Cardápio do Dia</h2>
 
-            <div id="container-cardapio">
-                <div class="prato1"></div>
-                <div class="prato2"></div>
-                <div class="prato3"></div>
-            </div>
+            <!-- Carrossel -->
+            <div class="carrossel">
+                <div class="list">
+                    <div class="item">
+                        <div class="content">
+                            <div class="title">BRASA</div>
+                            <div class="name">NOBRE</div>
+                            <div class="des">Costela bovina assada lentamente por horas até ficar macia e suculenta, com um tempero especial à base de alho, ervas frescas e toque defumado. Sevida com molho barbecue artesanal e acompanhamentos à escolha.</div>
+                            <div class="btn">
+                                <button>See More</button>
+                                <button>Subscribe</button>
+                            </div>
+                        </div>      
+                        <img src="imagens/cardapio/prato-1.jpg" alt="">
+                    </div>
 
+                    <div class="item">
+                        <div class="content">
+                            <div class="title">FOGO</div>
+                            <div class="name">ITALIANO</div>
+                            <div class="des">Uma pizza de massa fina com molho artesanal de tomates italianos, coberta com calabresa levemente picante, cebolas roxas caramelizadas e um toque de pimenta dedo-de-moça. Finalizada com queijo mussarela derretido e orégano fresco.</div>
+                            <div class="btn">
+                                <button>See More</button>
+                                <button>Subscribe</button>
+                            </div>
+                        </div>      
+                        <img src="imagens/cardapio/prato-2.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <div class="content">
+                            <div class="title">CROSTA</div>
+                            <div class="name">DOURADA</div>
+                            <div class="des">Filé empanado crocante por fora e suculento por dentro, servido com sala freca de folhas, cenoura e repolho, temperada com um toque cítrico. Uma combinação leve e saborosa, perfeita para quem busca equilíbrio no prato.</div>
+                            <div class="btn">
+                                <button>See More</button>
+                                <button>Subscribe</button>
+                            </div>
+                        </div>      
+                        <img src="imagens/cardapio/prato-3.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <div class="content">
+                            <div class="title">SABOR</div>
+                            <div class="name">NATIVO</div>
+                            <div class="des">Pedaços de carne bovina grelhados no ponto certo, acompanhados de um molho rústico feito à base de vinho tinto, cebolas douradas, alho e ervas frescas. O molho é servido à parte, realçando o sabor da carne sem sobrecarregar o prato.</div>
+                            <div class="btn">
+                                <button>See More</button>
+                                <button>Subscribe</button>
+                            </div>
+                        </div>      
+                        <img src="imagens/cardapio/prato-4.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <div class="content">
+                            <div class="title">BRISA</div>
+                            <div class="name">ORIENTAL</div>
+                            <div class="des">Finas lâminas de salmão fresco temperadas com molho cítrico, azeite de gergelim, ervas finas e sementes negras. Finalizado com microverdes e um leve toque de pimenta, trazendo frescor e sofisticação.</div>
+                            <div class="btn">
+                                <button>See More</button>
+                                <button>Subscribe</button>
+                            </div>
+                        </div>      
+                        <img src="imagens/cardapio/prato-5.jpg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <div class="content">
+                            <div class="title">SLIDER</div>
+                            <div class="name">CAMPO</div>
+                            <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto earum excepturi cum expedita, nesciunt eaque impedit adipisci dolor voluptates voluptas dolorum sunt officia id nemo nobis accusamus possimus dignissimos.</div>
+                            <div class="btn">
+                                <button>See More</button>
+                                <button>Subscribe</button>
+                            </div>
+                        </div>      
+                        <img src="imagens/cardapio/prato-6.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="arrows">
+                    <button class="prev">&larr;</button>
+                    <button class="next">&rarr;</button>
+                </div>
+        
+                <div class="timeRunning"></div>
+
+            </div>
         </section>
     </main>
-    <footer></footer>
-    
+
+    <footer>
+        <p>&copy; 2025 Restaurante Araraquara. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="js/carrossel.js"></script>
 </body>
 </html>
