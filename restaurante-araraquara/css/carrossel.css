@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root{
     --cor1:#F2B035;
     --cor2:#D97904;
@@ -101,6 +103,11 @@
 
 .item:nth-child(2) .content{
     display: block;
+}
+
+.content .title, .content .name{
+    font-family: 'Bebas Neue';
+    font-style: normal;
 }
 
 .content .title{

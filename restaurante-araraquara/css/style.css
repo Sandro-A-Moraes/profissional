@@ -340,3 +340,94 @@ img:hover{
 .imagem-2 p{
     padding-left: 0px;
 }
+
+/* Seção de dúvidas */
+
+#duvidas{
+    display: flex;
+    align-items: center;
+    gap: 9%;
+    padding: 64px 80px;
+
+}
+
+#duvidas h2{
+    font-size: 32px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.imagem-container{
+    position: relative;
+    left: -50px;
+}
+
+.imagem-container .imagem-duvidas{
+    width: 35vw;
+    height: 100vh;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.imagem-container .imagem-duvidas:hover{
+    transform: scale(1.01);
+    filter: brightness(1.2);
+}
+
+.duvida{
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.duvida h3{
+    cursor: pointer;
+    padding: 24px;
+    border: 2px solid var(--cor5);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.duvida img{
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida .paragrafo{
+    width: 100%;
+    border-right: 1px solid var(--cor5);
+    border-bottom: 1px solid var(--cor5);
+    border-left: 1px solid var(--cor5);
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 24px;
+    animation: colapso 1s ease-in-out;
+}
+
+@keyframes colapso {
+    from{
+        display: block;
+    }
+
+    to{
+        display: none;
+    }
+}
+
+@media (max-width: 1290px) {
+    
+}
+
+@media (max-width: 1070px) {
+    
+}
+
+@media (max-width: 865px){
+
+}
+
+@media (max-width: 768px){
+
+}
